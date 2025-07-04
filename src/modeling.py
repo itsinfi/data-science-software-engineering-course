@@ -115,5 +115,5 @@ def modeling(df_encoded, df_clean):
     plt.tight_layout()
     plt.savefig('data/Streudiagramm Echte vs. Vorhergesagte Werte.png')
 
-    # clf. TODO: save model
+    return model
 
